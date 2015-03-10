@@ -5,9 +5,9 @@
 # Usage
 
  In it's simplest form you should be able to get a tree by:
- 
-  <hexa-tree tree-data="sampleData" tree-options="" tree-output="outputObject"> </hexa-tree>
-
+```html
+    <hexa-tree tree-data="sampleData" tree-options="" tree-output="outputObject"> </hexa-tree>
+```
 Parameters:
 *  tree-data : JSON data model for the tree
 *  tree-options : JSON object for specifying tree options
