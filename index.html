@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo</title>
+        <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="src/hexa-tree.css">
+    </head>
+    <body ng-app="demo">
+        <div ng-controller="demoController">
+            <hexa-tree tree-data="sampleData" tree-options="" tree-output="outputObject"> </hexa-tree>
+            <hr/>
+            Selected Node: {{outputObject.selected.label}}
+        </div>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="app.js"></script>
+        <script src="src/hexa-tree.js"></script>
+        <script src="src/hexa-tree-node.js"></script>
+        <script src="src/hexa-tree-leaf.js"></script>
+    </body>
+</html>

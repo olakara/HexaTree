@@ -1,0 +1,16 @@
+.hexa-tree-node {
+    list-style: none;
+}
+
+.hexa-tree-node-selected {
+    color: black;    
+}
+
+.hex-tree-node-icon {
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.hexa-tree-node-label {
+    text-decoration: none;
+}
