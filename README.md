@@ -2,6 +2,10 @@
 
  Hexa Tree is a tree control directive for Angular [angularjs](http://www.angularjs.org).
 
+# Output
+
+![treedemo](https://cloud.githubusercontent.com/assets/570905/6583922/a44eff68-c724-11e4-9a56-796baebecdd7.PNG)
+
 # Usage
 
  In it's simplest form you should be able to get a tree by:
